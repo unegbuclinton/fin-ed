@@ -1,0 +1,137 @@
+label.box {
+    display: flex; 
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd
+}
+
+#one:checked~label.first,
+#two:checked~label.second,
+#three:checked~label.third,
+#four:checked~label.forth,
+#one1:checked~label.first,
+#two1:checked~label.second,
+#three1:checked~label.third,
+#four1:checked~label.forth,
+#five:checked~label.fifth,
+#six:checked~label.sixth,
+#seven:checked~label.seveth,
+#eight:checked~label.eighth,
+#eight:checked~label.eighth
+ {
+border-color:  #ee701e;
+}
+
+#one:checked~label.first .circle,
+#two:checked~label.second .circle,
+#three:checked~label.third .circle,
+#four:checked~label.forth .circle,
+
+#one1:checked~label.first .circle,
+#two1:checked~label.second .circle,
+#three1:checked~label.third .circle,
+#four1:checked~label.forth .circle,  
+
+#one2:checked~label.first .circle,
+#two2:checked~label.second .circle,
+#three2:checked~label.third .circle,
+#four2:checked~label.forth .circle,  
+
+#one3:checked~label.first .circle,
+#two3:checked~label.second .circle,
+#three3:checked~label.third .circle,
+#four3:checked~label.forth .circle,  
+
+#one4:checked~label.first .circle,
+#two4:checked~label.second .circle,
+#three4:checked~label.third .circle,
+#four4:checked~label.forth .circle,  
+
+#one5:checked~label.first .circle,
+#two5:checked~label.second .circle,
+#three5:checked~label.third .circle,
+#four5:checked~label.forth .circle,  
+
+#one6:checked~label.first .circle,
+#two6:checked~label.second .circle,
+#three6:checked~label.third .circle,
+#four6:checked~label.forth .circle,  
+
+#one7:checked~label.first .circle,
+#two7:checked~label.second .circle,
+#three7:checked~label.third .circle,
+#four7:checked~label.forth .circle,  
+
+#one8:checked~label.first .circle,
+#two8:checked~label.second .circle,
+#three8:checked~label.third .circle,
+#four8:checked~label.forth .circle,  
+
+#one9:checked~label.first .circle,
+#two9:checked~label.second .circle,
+#three9:checked~label.third .circle,
+#four9:checked~label.forth .circle,  
+
+#one10:checked~label.first .circle,
+#two10:checked~label.second .circle,
+#three10:checked~label.third .circle,
+#four10:checked~label.forth .circle,  
+
+#five:checked~label.fifth .circle,
+#six:checked~label.sixth .circle,
+#seven:checked~label.seveth .circle,
+#eight:checked~label.eighth .circle,
+#eight:checked~label.ninth .circle {
+    border: 6px solid  #ee701e;
+    background-color: #fff
+}
+
+label.box:hover {
+    background:  #ee701e;
+    color: white;
+}
+
+label.box .course {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+label.box .circle {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ddd;
+    display: inline-block
+}
+
+/* .modal-dialog{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+} */
+
+input[type="radio"] {
+    display: none
+}
+
+.btn.btn-primary {
+    border-radius: 25px;
+    margin-top: 20px
+}
+
+@media(max-width: 450px) {
+    .subject {
+        font-size: 12px
+    }
+}
